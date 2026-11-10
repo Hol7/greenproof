@@ -14,7 +14,7 @@ export default async function TreePage({params}:{params:Promise<{id:string}>}){
     {label:"État du sol",value:tree.soil,Icon:IoWaterOutline},{label:"Feuillage",value:tree.leaves,Icon:IoLeafOutline}];
   return <main className="tree-shell tree-sheet"><a className="tree-back" href="/demo"><IoArrowBack/> Tous les arbres</a>
     <div className="sheet-grid"><figure className="tree-photo"><Image src={'/arbres/'+id+'.webp'} alt={tree.name+' · '+tree.place} width={900} height={1000} priority/>
-    <figcaption><a href={'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(tree.file.replaceAll(" ","_"))}>Photo · {tree.author}</a> · <a href={id==="gp-027"?"https://creativecommons.org/publicdomain/zero/1.0/":"https://creativecommons.org/licenses/by-sa/4.0/"}>{id==="gp-027"?"CC0":"CC BY-SA 4.0"}</a></figcaption></figure>
+    <figcaption>{(id === "gp-039" || id === "gp-052") && "Vue du secteur · "}<a href={'https://commons.wikimedia.org/wiki/File:'+encodeURIComponent(tree.file.replaceAll(" ","_"))}>Photo · {tree.author}</a> · <a href={id==="gp-027"?"https://creativecommons.org/publicdomain/zero/1.0/":"https://creativecommons.org/licenses/by-sa/4.0/"}>{id==="gp-027"?"CC0":"CC BY-SA 4.0"}</a></figcaption></figure>
     <section className="sheet-content"><div className="sheet-id">{id.toUpperCase()} · Fiche de démonstration</div><h1>{tree.name}</h1><p className="tree-location"><IoLocationOutline/>{tree.place}</p>
     <div className="next-visit"><Status state={tree.state}/><p>{tree.next}</p></div>
     <h2>Dernier relevé</h2><p className="field-disclaimer">Données fictives au 10 novembre 2026.</p>
