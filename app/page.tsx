@@ -2,6 +2,8 @@ import Image from "next/image";
 import { IoArrowForward, IoArrowDown, IoLogoApple, IoLogoGooglePlaystore } from "react-icons/io5";
 import { Brand } from "@/components/Logo";
 
+import { trees } from "./arbres/data";
+
 export default function Home() {
   return <main id="haut" className="landing">
     <header className="mast wrap">
@@ -12,7 +14,14 @@ export default function Home() {
     <section className="intro" aria-labelledby="titre">
       <h1 id="titre">Aucun arbre<br/><em>sans suivi.</em></h1>
       <p>Un QR code par arbre pour guider les tournées<br className="desktop-break"/> et retrouver les contrôles en retard.</p>
-      <a className="action" href="#terrain">Découvrir le fonctionnement <IoArrowDown/></a>
+      <a className="action" href="#cotonou">Voir les arbres de Cotonou <IoArrowDown/></a>
+    </section>
+    <section className="cotonou-photos wrap" id="cotonou" aria-label="Arbres de Cotonou">
+      {trees.filter(tree => tree.id === "gp-039" || tree.id === "gp-052").map(tree =>
+        <a key={tree.id} href={'/arbres/' + tree.id}>
+          <Image src={tree.image} width={760} height={420} sizes="(max-width: 640px) 94vw, 46vw" alt={tree.place} priority/>
+          <span>{tree.place.split(" · ")[0]} <IoArrowForward aria-hidden/></span>
+        </a>)}
     </section>
     <section className="terrain wrap" id="terrain">
       <div className="terrain-copy"><h2>Tout commence<br/>par un scan.</h2>
