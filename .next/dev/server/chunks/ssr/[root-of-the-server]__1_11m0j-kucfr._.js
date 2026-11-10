@@ -172,7 +172,8 @@ async function TreePage({ params }) {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("figcaption", {
                                 children: [
-                                    (id === "gp-039" || id === "gp-052") && "Vue du secteur · ",
+                                    id === "gp-039" && "Photo recadrée · ",
+                                    id === "gp-052" && "Vue du secteur · ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                         href: 'https://commons.wikimedia.org/wiki/File:' + encodeURIComponent(tree.file.replaceAll(" ", "_")),
                                         children: [
@@ -182,7 +183,7 @@ async function TreePage({ params }) {
                                     }, void 0, true, {
                                         fileName: "[project]/app/arbres/[id]/page.tsx",
                                         lineNumber: 17,
-                                        columnNumber: 78
+                                        columnNumber: 97
                                     }, this),
                                     " · ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -191,7 +192,7 @@ async function TreePage({ params }) {
                                     }, void 0, false, {
                                         fileName: "[project]/app/arbres/[id]/page.tsx",
                                         lineNumber: 17,
-                                        columnNumber: 209
+                                        columnNumber: 228
                                     }, this)
                                 ]
                             }, void 0, true, {
@@ -372,8 +373,8 @@ const trees = [
     },
     {
         id: "gp-039",
-        image: "/arbres/boulevard-marina.webp",
-        name: "Arbre d’alignement",
+        image: "/arbres/palmier-marina.webp",
+        name: "Palmier d’alignement",
         place: "Boulevard de la Marina · Cotonou",
         state: "watch",
         planted: "Date inconnue",

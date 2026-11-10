@@ -731,45 +731,62 @@ h2 {
   }
 }
 
-.cotonou-photos {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 18px;
-  margin-bottom: 36px;
-  display: grid;
+.observation-group {
+  border: 0;
+  min-width: 0;
+  margin: 20px 0 0;
+  padding: 0;
 }
 
-.cotonou-photos a {
-  background: #173e2d;
-  border-radius: 22px;
-  display: block;
-  position: relative;
-  overflow: hidden;
+.observation-group legend {
+  margin-bottom: 8px;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 750;
 }
 
-.cotonou-photos img {
-  object-fit: cover;
-  width: 100%;
-  height: clamp(205px, 22vw, 320px);
-  display: block;
-}
-
-.cotonou-photos span {
-  color: #fff;
-  background: linear-gradient(#0000, #10281de8);
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px 20px 16px;
-  font-weight: 700;
+.observation-options {
+  flex-wrap: wrap;
+  gap: 8px;
   display: flex;
-  position: absolute;
-  inset: auto 0 0;
 }
 
-@media (max-width: 640px) {
-  .cotonou-photos {
-    grid-template-columns: 1fr;
-    gap: 12px;
-  }
+.observation-options button {
+  min-height: 44px;
+  font: inherit;
+  color: var(--ink);
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid #b7c8bb;
+  border-radius: 14px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 9px 14px;
+  font-size: 14px;
+  display: inline-flex;
+}
+
+.observation-options button[aria-pressed="true"] {
+  color: #174d36;
+  background: #e1efdc;
+  border-color: #376549;
+  font-weight: 750;
+}
+
+.field-actions .confirm-tree:disabled {
+  color: #536055;
+  cursor: default;
+  background: #e7ebe5;
+  border-color: #0000;
+}
+
+.qr-caption {
+  text-align: center;
+  color: var(--muted);
+  letter-spacing: .04em;
+  font-weight: 700;
+  display: block;
 }
 
 @media (min-width: 640px) {

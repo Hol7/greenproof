@@ -73,8 +73,8 @@ const trees = [
     },
     {
         id: "gp-039",
-        image: "/arbres/boulevard-marina.webp",
-        name: "Arbre d’alignement",
+        image: "/arbres/palmier-marina.webp",
+        name: "Palmier d’alignement",
         place: "Boulevard de la Marina · Cotonou",
         state: "watch",
         planted: "Date inconnue",
@@ -249,25 +249,10 @@ function Demo() {
                                         lineNumber: 16,
                                         columnNumber: 9
                                     }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        className: "card-open",
-                                        href: '/arbres/' + t.id,
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                children: t.id.toUpperCase()
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/demo/page.tsx",
-                                                lineNumber: 17,
-                                                columnNumber: 57
-                                            }, this),
-                                            " Ouvrir ",
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$io5$2f$index$2e$mjs__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["IoArrowForward"], {}, void 0, false, {
-                                                fileName: "[project]/app/demo/page.tsx",
-                                                lineNumber: 17,
-                                                columnNumber: 98
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("small", {
+                                        className: "qr-caption",
+                                        children: t.id.toUpperCase()
+                                    }, void 0, false, {
                                         fileName: "[project]/app/demo/page.tsx",
                                         lineNumber: 17,
                                         columnNumber: 9

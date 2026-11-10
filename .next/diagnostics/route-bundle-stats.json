@@ -13,11 +13,11 @@
   },
   {
     "route": "/arbres/[id]",
-    "firstLoadUncompressedJsBytes": 477552,
+    "firstLoadUncompressedJsBytes": 477337,
     "firstLoadChunkPaths": [
       ".next/static/chunks/3qfy96eoyh-ek.js",
       ".next/static/chunks/0i9bfanyibmja.js",
-      ".next/static/chunks/2k806egk4ner1.js",
+      ".next/static/chunks/0j8fu2b_s0urs.js",
       ".next/static/chunks/0kqziy-7_gy73.js",
       ".next/static/chunks/395glp5--7qza.js",
       ".next/static/chunks/3jn_x8ihwq16e.js",
