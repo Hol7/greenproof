@@ -1,5 +1,5 @@
 import Image from "next/image";
-import {IoArrowForward,IoArrowBack} from "react-icons/io5";
+import {IoArrowBack} from "react-icons/io5";
 import TreeMonitor from "@/components/TreeMonitor";
 import {trees} from "../arbres/data";
 import Status from "../arbres/Status";
@@ -14,7 +14,7 @@ export default function Demo(){
         <a href={'/arbres/'+t.id} className="cover-link"><Image src={t.image} alt={t.name+' · '+t.place} width={400} height={240}/></a>
         <div className="qr-body"><Status state={t.state}/><h2>{t.name}</h2><p>{t.place}</p>
         <img className="qr-image" src={'/arbres/'+t.id+'-qr.png'} width="152" height="152" alt={'QR code public de '+t.id.toUpperCase()}/>
-        <a className="card-open" href={'/arbres/'+t.id}><span>{t.id.toUpperCase()}</span> Ouvrir <IoArrowForward/></a></div>
+        <small className="qr-caption">{t.id.toUpperCase()}</small></div>
       </article>)}
     </section>
     <details className="sector-map" open><summary>Carte du secteur de démonstration</summary><TreeMonitor/></details>
