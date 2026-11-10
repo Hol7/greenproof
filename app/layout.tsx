@@ -1,3 +1,4 @@
+import "@fontsource-variable/manrope";
 import type { Metadata } from "next";
 import "./globals.css";
 
