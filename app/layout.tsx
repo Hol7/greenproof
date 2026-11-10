@@ -7,5 +7,10 @@ export const metadata: Metadata = {
   description: "GREENPROOF aide les équipes à identifier, suivre et prioriser l'entretien des arbres urbains grâce à un QR code et à un relevé mobile.",
 };
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="fr"><body>{children}</body></html>;
+  return (
+    <html lang="fr">
+      {/* Les extensions peuvent ajouter des attributs au body avant l’hydratation. */}
+      <body suppressHydrationWarning>{children}</body>
+    </html>
+  );
 }
