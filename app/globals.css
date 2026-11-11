@@ -44,3 +44,6 @@ a{color:inherit;text-decoration:none}button,input,select{font:inherit}a:focus-vi
 .city-map-note{position:absolute;bottom:21px;left:24px;padding:7px 11px;background:#faf9f4ed;border-radius:8px;font-size:11px;color:#4e6155}
 .city-map-credit{position:absolute;bottom:8px;right:10px;background:#faf9f4e8;padding:2px 5px;font-size:10px;text-decoration:underline}
 @media(max-width:760px){.localisation{padding-top:58px}.localisation-heading{grid-template-columns:1fr;gap:20px;padding:0 8px 26px}.city-map{height:390px;border-radius:23px}.city-map-location{top:16px;left:16px}.map-tree-main{left:36%;top:38%}.map-tree-label{width:174px}.map-tree-two{left:14%;top:62%}.map-tree-three{left:44%;top:72%}.map-tree-four{left:69%;top:55%}.map-tree-five{left:78%;top:25%}.map-tree-six{display:none}.city-map-note{left:12px;bottom:28px;font-size:10px}}
+
+.pilote dd.budget-amount{font-size:clamp(21px,2.8vw,40px);letter-spacing:-.055em;white-space:nowrap}
+@media(max-width:760px){.pilote dd.budget-amount{font-size:clamp(21px,5.5vw,36px)}}

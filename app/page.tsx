@@ -49,7 +49,7 @@ export default function Home() {
       <a className="inline" href="/demo">Explorer un secteur de démonstration <IoArrowForward/></a></div>
     </section>
     <section className="pilote wrap" id="pilote"><h2>Le pilote au Bénin</h2>
-      <dl><div><dt>Arbres à suivre</dt><dd>150</dd></div><div><dt>Durée proposée</dt><dd>3 <small>mois</small></dd></div><div><dt>Budget cible</dt><dd>250 000 <small>FCFA</small></dd></div></dl>
+      <dl><div><dt>Arbres à suivre</dt><dd>150</dd></div><div><dt>Durée proposée</dt><dd>3 <small>mois</small></dd></div><div><dt>Budget cible entre</dt><dd className="budget-amount">250000 et 1000000 <small>FCFA</small></dd></div></dl>
     </section>
     <footer className="wrap bottom"><div><Brand/><p>Suivi des arbres urbains au Bénin.</p></div>
       <div className="stores"><small>Application mobile en projet</small><div><span><IoLogoApple/> App Store</span><span><IoLogoGooglePlaystore/> Google Play</span></div></div>
