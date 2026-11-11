@@ -1,7 +1,5 @@
 {
   "app": {
-    "[project]/app/arbres/[id]/page": [],
-    "[project]/app/demo/page": [],
     "[project]/app/page": []
   },
   "appUsingSizeAdjust": false,

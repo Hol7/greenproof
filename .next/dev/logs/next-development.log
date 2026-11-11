@@ -1,4 +1,1 @@
-{"timestamp":"00:00:00.604","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:27.416","source":"Browser","level":"WARN","message":"Image with src \"/arbres/gp-001.webp\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\"eager\"` property if this image is above the fold.\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading"}
-{"timestamp":"00:00:27.426","source":"Server","level":"WARN","message":"[browser] \"\\u001b[33mImage with src \\\"/arbres/gp-001.webp\\\" was detected as the Largest Contentful Paint (LCP). Please add the `loading=\\\"eager\\\"` property if this image is above the fold.\\nRead more: https://nextjs.org/docs/app/api-reference/components/image#loading\\u001b[39m\""}
-{"timestamp":"00:21:22.377","source":"Server","level":"LOG","message":"✓ Compiled in 136ms"}
+{"timestamp":"00:00:00.550","source":"Server","level":"LOG","message":""}

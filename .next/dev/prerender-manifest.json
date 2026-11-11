@@ -1,1 +1,6 @@
-{"version":4,"routes":{"/arbres/gp-001":{},"/arbres/gp-039":{},"/arbres/gp-027":{},"/arbres/gp-052":{}},"dynamicRoutes":{"/arbres/[id]":{"dataRoute":null,"dataRouteRegex":null,"fallback":false,"fallbackRevalidate":false,"fallbackSourceRoute":"/arbres/[id]","routeRegex":"^\\/arbres\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[]}
+{
+  "version": 4,
+  "routes": {},
+  "dynamicRoutes": {},
+  "notFoundRoutes": []
+}
